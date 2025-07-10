@@ -24,8 +24,6 @@ public class OrmLearnApplication {
 	}
 
 	public static void main(String[] args) {
-
-
 		ApplicationContext context = SpringApplication.run(OrmLearnApplication.class, args);
 		countryService = context.getBean(CountryService.class);
 		LOGGER.info("Inside main");

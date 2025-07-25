@@ -1,0 +1,14 @@
+.ButtonContainer{
+    display: flex;
+    min-height: 100vh;
+    margin-top: 50vh;
+}
+
+.Container{
+    margin-left: 25vw;
+}
+
+.Button{
+    background-color: lightgreen;
+}
+

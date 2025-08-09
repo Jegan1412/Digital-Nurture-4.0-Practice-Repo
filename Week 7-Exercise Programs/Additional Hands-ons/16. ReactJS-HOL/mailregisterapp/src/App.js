@@ -1,9 +1,9 @@
-import { Posts } from "./Components/Posts";
+import { Register } from './Components/EmailRegister';
 
 function App() {
   return (
     <div className="App">
-     <Posts/>
+      <Register/>
     </div>
   );
 }
